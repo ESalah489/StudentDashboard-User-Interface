@@ -22,7 +22,7 @@ const NavBar = () => {
             <span className="text-3xl"> Bla Bla</span>
           </a>
 
-          <div className="flex items-center lg:order-2 border-1">
+          <div className="flex items-center lg:order-2 ">
             <button
               onClick={toggleMobileMenu}
               type="button"

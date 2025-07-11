@@ -1,12 +1,20 @@
-# React + Vite
+# Student Dashboard – Exams and Announcements Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **React-based dashboard** built with **Vite** that enables students to manage **quizzes** and view **announcements**. It provides a clean UI, responsive layout, and full CRUD functionality for both quizzes and announcements. The backend is powered by **Express.js** and **MongoDB**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📋 **Manage Quizzes**
+  - Create, read, update, and delete quizzes
+  - Fields: name, subject, date, duration, total marks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📢 **Manage Announcements**
+  - Create and update announcements
+  - Toggle active/inactive status
+
+- 🧩 **Modular & Responsive Design**
+  - Reusable components (`DefultButton`, forms, tables, etc.)
+  - Responsive sidebar and layout using Tailwind CSS
+  - Clean API structure
